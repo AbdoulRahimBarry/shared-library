@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-/*to allowed checkbash*/
+
 
 def call() {
    sh 'shellcheck --version'
@@ -17,4 +17,3 @@ def call() {
    fi
    '''
 }
-
